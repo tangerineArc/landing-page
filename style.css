@@ -109,3 +109,34 @@
     border-radius: 1em;
     margin-bottom: 0.5em;
 }
+
+.review-section {
+    background-color: #E5E7EB;
+    padding: 6em;
+
+    font-family: "Roboto", sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+
+    max-width: 950px;
+}
+
+.review-author {
+    text-align: end;
+    font-size: 18px;
+    font-weight: bold;
+
+    margin-right: 2em;
+    margin-top: 1em;
+    width: 950px;
+}
